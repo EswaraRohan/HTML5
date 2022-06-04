@@ -1,0 +1,64 @@
+<!-- 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+The HTML <table> element represents tabular data — that is, information
+presented in a two-dimensional table comprised of rows and columns of cells
+containing data.
+
+<table> <tr> <td> <th> <thead> <tbody>
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTML TABLE P12 </title>
+        <style>
+            table,
+            td{
+                border: 1px solid rgb(14, 1, 1);
+            }
+            thead,
+            tfoot{
+                background-color:rgb(242, 234, 234);
+                color:rgb(15, 1, 1);
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+            </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Eswara</td>
+                    <td>Rohan</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Eswara Rohan</td>
+                </tr>
+                <tr>
+                    <td>Eswara</td>
+                    <td>Eswara</td>
+                    <td rowspan="3">Eswara Rohan</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <td colspan="3">Footer Is Here Eswara Rohan</td>
+            </tfoot>
+
+            
+
+
+
+
+
+        </table>
+        
+    </body>
+
+
+</html>
