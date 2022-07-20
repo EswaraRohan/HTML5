@@ -4,6 +4,12 @@ method-get - clearly visible in URL
 in post method, the url has no character limit and url wont get updated, data safely go to backend
 -->
 
+<!--
+new form elements - 
+<input type="reset">
+
+-->
+
 
 <head>
     <title>Rohan</title>
